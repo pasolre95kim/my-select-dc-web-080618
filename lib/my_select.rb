@@ -1,5 +1,5 @@
 def my_select(collection)
-  if block_given?
+  new_array = []
     i=0
     while i < collection.length
       yield(collection[i])
@@ -7,6 +7,6 @@ def my_select(collection)
     end
         collection
       else
-        collection.select 
+        collection.select
   end
 end
