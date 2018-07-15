@@ -4,7 +4,7 @@ new_array = []
 
 while count < array.size
   if yield(array[count]) == true
-  result.push(array[count])
+  new_array << (array[count])
 end
   count+=1
 end
