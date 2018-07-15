@@ -3,8 +3,8 @@ i= 0
 new_array = []
 
 while count < array.size
-  if yield(array[count]) == true
-  new_array << (array[count])
+  if yield(collection[count]) == true
+  new_array << (collection[count])
 end
   count+=1
 end
