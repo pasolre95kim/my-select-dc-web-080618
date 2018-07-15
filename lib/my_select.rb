@@ -7,6 +7,6 @@ def my_select(collection)
     end
         collection
       else
-        collection.select
+        collection.select(collection)
   end
 end
