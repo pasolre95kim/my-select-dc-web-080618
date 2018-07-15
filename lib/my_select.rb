@@ -8,5 +8,5 @@ def my_select(collection)
         collection
       else
         return true
-    end
+  end
 end
