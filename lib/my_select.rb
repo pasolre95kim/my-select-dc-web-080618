@@ -7,6 +7,6 @@ def my_select(collection)
     end
         collection
       else
-        collection.select(collection)
+        collection.select {|num| num.even?}
   end
 end
