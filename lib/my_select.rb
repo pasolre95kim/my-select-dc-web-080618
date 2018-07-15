@@ -6,7 +6,7 @@ while i < collection.size
   if yield(collection[i]) == true
   new_array << (collection[i])
 end
-  count+=1
+  i+=1
 end
-result
+new_array
 end
