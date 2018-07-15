@@ -1,6 +1,6 @@
 def my_select(array)
 count = 0
-result = []
+new_array = []
 
 while count < array.size
   if yield(array[count]) == true
